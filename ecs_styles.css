@@ -1,0 +1,262 @@
+@charset "utf-8";
+.container.row {
+}
+
+body {
+	background-color: #015288;
+	background-image: -webkit-linear-gradient(270deg,rgba(0,97,129,1.00) 0%,rgba(11,96,133,1.00) 100%);
+	background-image: -moz-linear-gradient(270deg,rgba(0,97,129,1.00) 0%,rgba(11,96,133,1.00) 100%);
+	background-image: -o-linear-gradient(270deg,rgba(0,97,129,1.00) 0%,rgba(11,96,133,1.00) 100%);
+	background-image: linear-gradient(180deg,rgba(0,97,129,1.00) 0%,rgba(11,96,133,1.00) 100%);
+	background-repeat: no-repeat;
+}
+nav.row .navbar.navbar-default {
+	background-color: #000000;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	color: #FFFFFF;
+	background-image: -webkit-linear-gradient(270deg,rgba(147,147,147,1.00) 0%,rgba(6,6,6,1.00) 99.48%);
+	background-image: -moz-linear-gradient(270deg,rgba(147,147,147,1.00) 0%,rgba(6,6,6,1.00) 99.48%);
+	background-image: -o-linear-gradient(270deg,rgba(147,147,147,1.00) 0%,rgba(6,6,6,1.00) 99.48%);
+	background-image: linear-gradient(180deg,rgba(147,147,147,1.00) 0%,rgba(6,6,6,1.00) 99.48%);
+ }
+nav.row .nav.navbar-nav {
+	margin: 0px auto;
+	width: 715px;
+	float: none;
+}
+nav.row .nav.navbar-nav > li > a:hover {
+	background-image: -webkit-linear-gradient(90deg,rgba(147,147,147,1.00) 0%,rgba(6,6,6,1.00) 99.48%);
+	background-image: -moz-linear-gradient(90deg,rgba(147,147,147,1.00) 0%,rgba(6,6,6,1.00) 99.48%);
+	background-image: -o-linear-gradient(90deg,rgba(147,147,147,1.00) 0%,rgba(6,6,6,1.00) 99.48%);
+	background-image: linear-gradient(0deg,rgba(147,147,147,1.00) 0%,rgba(6,6,6,1.00) 99.48%);
+	color: #FFF;
+}
+nav.row .nav.navbar-nav > li > a:link  , nav.row .nav.navbar-nav > li > a:visited{
+	border-left: 1px solid #696c6f;
+	border-right: 1px solid #696C6F;
+	border-bottom: 1px solid #272727;
+	border-top: 1px solid #272727;
+	color: #FFFFFF;
+	font-weight: bold;
+}
+.container.holder {
+	background-color: #F7F7F7;
+	width: 95%;
+	height: 80%;
+}
+h3   {
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	font-style: italic;
+	font-weight: bold;
+	font-size: medium;
+	text-align: center;
+}
+header.row {
+	padding-top: 106px;
+	padding-right: 0px;
+	padding-bottom: 60px;
+	background-image: url(images/ecsheader3.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: center center;
+		
+}
+
+footer p {
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	font-style: normal;
+	text-align: center;
+	font-size: small;
+	padding-top: 16px;
+	margin-top: 14px;
+	top: 25px;
+	bottom: 3px;
+}
+footer img {
+	top: 5px;
+	right: 2px;
+	left: 2px;
+	bottom: 5px;
+}
+
+footer h4  {
+	border-top-width: 0;
+	border-top-color: #000000;
+	border-bottom-width: 5px;
+	border-bottom-color: #67A1AC;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	font-style: normal;
+	margin-top: 18px;
+	margin-right: 18px;
+	margin-bottom: 18px;
+	margin-left: 18px;
+	font-size: small;
+	text-align: center;
+	padding-top: 21px;
+	top: 41px;
+	bottom: 3px;
+	position: relative;
+}
+footer{
+	border-top-width: 5px;
+	border-top-color: #67A1AC;
+}
+
+.blockquote {
+	margin-right: 20px;
+	margin-left: 20px;
+	background-color: #84B9A7;
+	}
+
+figure p {
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	text-align: left;
+}
+aside h2 {
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	width: 0px;
+}
+aside table {
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	font-size: 90%;
+	width: 100%;
+	border-bottom: 3px solid #fffff;
+	margin-bottom: 2em;
+	margin-left: auto;
+	margin-right: auto;
+}
+tr:nth-of-type(even) {
+	background-color: #d4ead4;
+}
+
+aside.row {
+	background-image: -webkit-linear-gradient(3deg,rgba(183,183,183,0.64) 0%,rgba(197,215,228,1.00) 100%);
+	background-image: -moz-linear-gradient(3deg,rgba(183,183,183,0.64) 0%,rgba(197,215,228,1.00) 100%);
+	background-image: -o-linear-gradient(3deg,rgba(183,183,183,0.64) 0%,rgba(197,215,228,1.00) 100%);
+	background-image: linear-gradient(87deg,rgba(183,183,183,0.64) 0%,rgba(197,215,228,1.00) 100%);
+}
+
+td:before {
+	width: 25%;
+	display: block;
+	padding-right: 10px;
+	position: absolute;
+	top: 6px;
+	left: 1em;
+	color: #ccc;
+	font-weight: bold;
+	white-space: nowrap;
+	text-align: left;
+	}
+aside .date {
+	/* [disabled]width: 6em; */
+}
+aside .event {
+	/* [disabled]width: 4em; */
+	text-align: center;}
+
+aside th {
+	margin: 0px;
+	padding: 0px;
+	border: none;
+	height:0px;
+	overflow: hidden;
+	font-size:0;
+}
+
+aside td, aside th {
+	display:block;
+}
+aside td, aside th {
+	padding: 6px;
+	text-align: left;
+	border-top: 1px solid #066083;
+}
+	aside th {
+	color: #FFFFFF;
+	text-align: center;
+	border-bottom: solid 6px #ffff
+	;
+	background-color: #077DAB;
+}
+td.date:before {
+	content: "Date: ";
+}
+td.event:before {
+	content: "Event: ";}
+	
+aside.event 
+aside.date
+{	width: 100%;
+	padding-left: 30%;
+	position: relative;
+	text-align: left;
+	}
+	
+	aside tr {
+	border-bottom: solid #060;
+}
+article h2 {
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	
+}
+
+hr {
+	width: 42%;
+	border-top: 8px solid #006600;
+	padding-bottom: 2px;
+	padding-top: 2px;
+		
+}
+figure {
+	display: block;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-top: 5px;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	margin-left: 5px;
+	background-color: #FFFFFF;
+}
+article.row.blockquote {
+	width: 95%;
+
+
+}
+article p {
+	padding-top: 2px;
+	padding-right: 2px;
+	padding-bottom: 2px;
+	padding-left: 2px;
+	text-align: justify;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	font-size: medium;
+	vertical-align: text-top;
+}
+
+article.row {
+	left: 3px;
+	width: 100%;
+	display: block;
+	padding-right: 2px;
+	padding-left: 2px;
+	float: right;
+}
+.flt_rgt {
+	float: right;
+	margin-right: 10px;
+}
+.flt_lft {
+	float: left;
+	margin-right: 10px;
+}
