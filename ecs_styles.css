@@ -117,7 +117,6 @@ figure p {
 aside h2 {
 	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
 	font-weight: bold;
-	text-align: center;
 	padding-top: 5px;
 	padding-bottom: 5px;
 	width: 0px;
@@ -125,14 +124,15 @@ aside h2 {
 aside table {
 	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
 	font-size: 90%;
-	width: 100%;
 	border-bottom: 3px solid #fffff;
 	margin-bottom: 2em;
 	margin-left: auto;
 	margin-right: auto;
+	position: relative;
+	width: 100%;
 }
 tr:nth-of-type(even) {
-	background-color: #d4ead4;
+	background-color: #84B9A7;
 }
 
 aside.row {
@@ -140,10 +140,20 @@ aside.row {
 	background-image: -moz-linear-gradient(3deg,rgba(183,183,183,0.64) 0%,rgba(197,215,228,1.00) 100%);
 	background-image: -o-linear-gradient(3deg,rgba(183,183,183,0.64) 0%,rgba(197,215,228,1.00) 100%);
 	background-image: linear-gradient(87deg,rgba(183,183,183,0.64) 0%,rgba(197,215,228,1.00) 100%);
+	position: relative;
+	left: 10px;
+	right: 10px;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-left: 5px;
+	margin-right: 29px;
+	display: block;
 }
 
 td:before {
-	width: 25%;
+	width: 27%;
 	display: block;
 	padding-right: 10px;
 	position: absolute;
@@ -154,25 +164,15 @@ td:before {
 	white-space: nowrap;
 	text-align: left;
 	}
-aside .date {
-	/* [disabled]width: 6em; */
-}
+	
+	aside .date {
+	width: 6em;
+	}
+
 aside .event {
-	/* [disabled]width: 4em; */
-	text-align: center;}
-
-aside th {
-	margin: 0px;
-	padding: 0px;
-	border: none;
-	height:0px;
-	overflow: hidden;
-	font-size:0;
-}
-
-aside td, aside th {
-	display:block;
-}
+	width: 6em;
+	}
+	
 aside td, aside th {
 	padding: 6px;
 	text-align: left;
@@ -193,9 +193,10 @@ td.event:before {
 	
 aside.event 
 aside.date
-{	width: 100%;
-	padding-left: 30%;
-	position: relative;
+{
+	width: 100%;
+	padding-left: 25%;
+	position: static;
 	text-align: left;
 	}
 	
@@ -208,8 +209,13 @@ article h2 {
 	font-weight: bold;
 	padding-top: 5px;
 	padding-bottom: 5px;
+	text-align: center;
 	
 }
+aside.row h2 {
+	text-align: center;
+}
+
 
 hr {
 	width: 42%;
@@ -228,29 +234,28 @@ figure {
 	margin-left: 5px;
 	background-color: #FFFFFF;
 }
-article.row.blockquote {
+blockquote.row.blockquote {
 	width: 95%;
-
-
 }
-article p {
+
+blockquote p {
 	padding-top: 2px;
 	padding-right: 2px;
 	padding-bottom: 2px;
 	padding-left: 2px;
-	text-align: justify;
 	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
 	font-size: medium;
 	vertical-align: text-top;
 }
 
-article.row {
+blockquote.row {
 	left: 3px;
 	width: 100%;
 	display: block;
 	padding-right: 2px;
 	padding-left: 2px;
 	float: right;
+	
 }
 .flt_rgt {
 	float: right;
@@ -259,4 +264,36 @@ article.row {
 .flt_lft {
 	float: left;
 	margin-right: 10px;
+}
+aside ul {
+	font-style: normal;
+	font-size: medium;
+	text-decoration: none;
+	font-weight: bold;
+	margin-top: 5px;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	margin-left: 5px;
+	width: 123px;
+	padding-top: 2px;
+	padding-right: 2px;
+	padding-left: 2px;
+	clear: none;
+	padding-bottom: 2px;
+}
+
+
+article.row {
+	text-align: left;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	margin-right: 2px;
+	margin-left: 2px;
+}
+.staff {
+	display: inline;
+	margin-top: 2px;
+	margin-right: 2px;
+	margin-bottom: 2px;
+	margin-left: 2px;
 }
