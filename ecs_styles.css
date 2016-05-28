@@ -1,12 +1,13 @@
 @charset "utf-8";
 
 body {
-	background-color: #015288;
-	background-image: -webkit-linear-gradient(270deg,rgba(0,97,129,1.00) 0%,rgba(11,96,133,1.00) 100%);
-	background-image: -moz-linear-gradient(270deg,rgba(0,97,129,1.00) 0%,rgba(11,96,133,1.00) 100%);
-	background-image: -o-linear-gradient(270deg,rgba(0,97,129,1.00) 0%,rgba(11,96,133,1.00) 100%);
-	background-image: linear-gradient(180deg,rgba(0,97,129,1.00) 0%,rgba(11,96,133,1.00) 100%);
-	background-repeat: no-repeat;
+	
+	background-image: -webkit-linear-gradient(270deg,rgba(0,97,129,1.00) 0%,rgba(11,96,133,1.00) 100%), url(images/stripe1.jpg);
+	background-image: -moz-linear-gradient(270deg,rgba(0,97,129,1.00) 0%,rgba(11,96,133,1.00) 100%), url(images/stripe1.jpg);
+	background-image: -o-linear-gradient(270deg,rgba(0,97,129,1.00) 0%,rgba(11,96,133,1.00) 100%), url(images/stripe1.jpg);
+	background-image: linear-gradient(180deg,rgba(0,97,129,1.00) 0%,rgba(11,96,133,1.00) 100%), url(images/stripe1.jpg);
+	background-repeat: no-repeat repeat;
+	
 }
 nav.row .navbar.navbar-default {
 	background-color: #000000;
@@ -61,13 +62,12 @@ marquee {
 }
 
 header.row {
-	padding-top: 106px;
-	padding-bottom: 60px;
-	background-image: url(images/ecsheader.jpg);
+	padding-top: 180px;
+	padding-bottom: 50px;
 	background-repeat: no-repeat;
 	background-size: 100%;
-	background-position: center center;	
-		
+	background-position: center center;
+	background-image: url(images/ecsheader4.png);
 }
 .container.header {
 width:90%}
@@ -111,6 +111,10 @@ footer h4  {
 footer{
 	border-top-width: 5px;
 	border-top-color: #67A1AC;
+	background-image: -webkit-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(255,255,255,1.00) 100%), url(url);
+	background-image: -moz-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(255,255,255,1.00) 100%), url(url);
+	background-image: -o-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(255,255,255,1.00) 100%), url(url);
+	background-image: linear-gradient(180deg,rgba(255,255,255,1.00) 0%,rgba(255,255,255,1.00) 100%), url(url);
 }
 
 .blockquote {
@@ -225,8 +229,6 @@ figure {
 
 }
 
-
-
 blockquote p {
 	padding-top: 1px;
 	padding-right: 2px;
@@ -290,9 +292,6 @@ article h2 {
 	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
 	font-style: normal;
 	font-weight: bold;
-	padding-top: 5px;
-	padding-bottom: 5px;
-	text-align: center;
 	
 }
 article.home {
@@ -349,4 +348,10 @@ noticeboard.odd {
 	
 }
 figure .col-md-4 img {
+}
+img {
+	padding-top: 7px;
+	padding-right: 7px;
+	padding-left: 7px;
+	padding-bottom: 7px;
 }
