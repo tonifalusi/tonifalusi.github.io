@@ -1,6 +1,4 @@
 @charset "utf-8";
-.container.row {
-}
 
 body {
 	background-color: #015288;
@@ -33,7 +31,8 @@ nav.row .nav.navbar-nav > li > a:hover {
 	background-image: linear-gradient(0deg,rgba(147,147,147,1.00) 0%,rgba(6,6,6,1.00) 99.48%);
 	color: #FFF;
 }
-nav.row .nav.navbar-nav > li > a:link  , nav.row .nav.navbar-nav > li > a:visited{
+nav.row .nav.navbar-nav > li > a:link,  nav.row .nav.navbar-nav > li > a:visited
+{
 	border-left: 1px solid #696c6f;
 	border-right: 1px solid #696C6F;
 	border-bottom: 1px solid #272727;
@@ -43,7 +42,7 @@ nav.row .nav.navbar-nav > li > a:link  , nav.row .nav.navbar-nav > li > a:visite
 }
 .container.holder {
 	background-color: #F7F7F7;
-	width: 95%;
+	width:auto;
 	height: 80%;
 }
 h3   {
@@ -51,18 +50,28 @@ h3   {
 	font-style: italic;
 	font-weight: bold;
 	font-size: medium;
-	text-align: center;
+	text-align: center-block;
 }
+marquee {
+	font-size: large;
+	font-weight: bold;
+	font-style: italic;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	padding-top: 16px;
+}
+
 header.row {
 	padding-top: 106px;
-	padding-right: 0px;
 	padding-bottom: 60px;
-	background-image: url(images/ecsheader3.png);
+	background-image: url(images/ecsheader.jpg);
 	background-repeat: no-repeat;
 	background-size: 100%;
-	background-position: center center;
+	background-position: center center;	
 		
 }
+.container.header {
+width:90%}
+
 
 footer p {
 	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
@@ -121,36 +130,20 @@ aside h2 {
 	padding-bottom: 5px;
 	width: 0px;
 }
-aside table {
+table {
 	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
 	font-size: 90%;
-	border-bottom: 3px solid #fffff;
+	border-bottom: 3px solid #FFFF;
 	margin-bottom: 2em;
 	margin-left: auto;
 	margin-right: auto;
-	position: relative;
 	width: 100%;
 }
 tr:nth-of-type(even) {
 	background-color: #84B9A7;
 }
 
-aside.row {
-	background-image: -webkit-linear-gradient(3deg,rgba(183,183,183,0.64) 0%,rgba(197,215,228,1.00) 100%);
-	background-image: -moz-linear-gradient(3deg,rgba(183,183,183,0.64) 0%,rgba(197,215,228,1.00) 100%);
-	background-image: -o-linear-gradient(3deg,rgba(183,183,183,0.64) 0%,rgba(197,215,228,1.00) 100%);
-	background-image: linear-gradient(87deg,rgba(183,183,183,0.64) 0%,rgba(197,215,228,1.00) 100%);
-	position: relative;
-	left: 10px;
-	right: 10px;
-	padding-left: 5px;
-	padding-right: 5px;
-	padding-top: 5px;
-	padding-bottom: 5px;
-	margin-left: 5px;
-	margin-right: 29px;
-	display: block;
-}
+
 
 td:before {
 	width: 27%;
@@ -165,11 +158,11 @@ td:before {
 	text-align: left;
 	}
 	
-	aside .date {
+	aside.date {
 	width: 6em;
 	}
 
-aside .event {
+aside.event {
 	width: 6em;
 	}
 	
@@ -179,22 +172,18 @@ aside td, aside th {
 	border-top: 1px solid #066083;
 }
 	aside th {
-	color: #FFFFFF;
-	text-align: center;
-	border-bottom: solid 6px #ffff
-	;
+	color: #000000;
+	text-align: left;
+	border-bottom: solid 6px	;
 	background-color: #077DAB;
+	font-size: large;
 }
-td.date:before {
-	content: "Date: ";
-}
-td.event:before {
-	content: "Event: ";}
+
 	
 aside.event 
 aside.date
 {
-	width: 100%;
+	width: 90%;
 	padding-left: 25%;
 	position: static;
 	text-align: left;
@@ -203,15 +192,7 @@ aside.date
 	aside tr {
 	border-bottom: solid #060;
 }
-article h2 {
-	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
-	font-style: normal;
-	font-weight: bold;
-	padding-top: 5px;
-	padding-bottom: 5px;
-	text-align: center;
-	
-}
+
 aside.row h2 {
 	text-align: center;
 }
@@ -224,6 +205,14 @@ hr {
 	padding-top: 2px;
 		
 }
+hr.blue {
+	width:64%;
+	border-top: 8px solid #84BAA7;
+	padding-bottom: 1px;
+	Padding-top: 1px;
+	
+	
+}
 figure {
 	display: block;
 	padding-top: 20px;
@@ -233,30 +222,33 @@ figure {
 	margin-bottom: 5px;
 	margin-left: 5px;
 	background-color: #FFFFFF;
-}
-blockquote.row.blockquote {
-	width: 95%;
+
 }
 
+
+
 blockquote p {
-	padding-top: 2px;
+	padding-top: 1px;
 	padding-right: 2px;
-	padding-bottom: 2px;
+	padding-bottom: 1px;
 	padding-left: 2px;
+	width: 90%;
 	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
-	font-size: medium;
-	vertical-align: text-top;
+	font-size: large;
+	text-align: center;	
 }
 
 blockquote.row {
 	left: 3px;
-	width: 100%;
 	display: block;
 	padding-right: 2px;
 	padding-left: 2px;
-	float: right;
+	height: 102px;
+	font-style: italic;
+	font-weight: bold;
+	font-size: large;
+	}
 	
-}
 .flt_rgt {
 	float: right;
 	margin-right: 10px;
@@ -282,18 +274,79 @@ aside ul {
 	padding-bottom: 2px;
 }
 
-
 article.row {
 	text-align: left;
 	margin-top: 2px;
 	margin-bottom: 2px;
 	margin-right: 2px;
 	margin-left: 2px;
+		width: 100%;
 }
-.staff {
-	display: inline;
-	margin-top: 2px;
-	margin-right: 2px;
-	margin-bottom: 2px;
-	margin-left: 2px;
+article.row p {
+	padding: 10px 15px 15px 10px;
+	font-size: medium;
+}
+article h2 {
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	text-align: center;
+	
+}
+article.home {
+	padding: 10px 35px 35px 5px;
+	}
+
+	
+.welcome {
+	width: 60%;
+	position: relative;
+}
+
+
+
+.news {
+	background-image: -webkit-linear-gradient(270deg,rgba(219,219,219,0.91) 0%,rgba(142,142,142,1.00) 100%);
+	background-image: -moz-linear-gradient(270deg,rgba(219,219,219,0.91) 0%,rgba(142,142,142,1.00) 100%);
+	background-image: -o-linear-gradient(270deg,rgba(219,219,219,0.91) 0%,rgba(142,142,142,1.00) 100%);
+	background-image: linear-gradient(180deg,rgba(219,219,219,0.91) 0%,rgba(142,142,142,1.00) 100%);
+	margin-top: 80px;
+	margin-bottom: 10px;
+	padding-top: 0px;
+	padding-bottom: 2px;
+	font-size: medium;
+	size: 90%;
+}
+
+text.noticeboard {
+	font-size: small;
+	text-align: left;
+	padding-top: 2px;
+	padding-right: 2px;
+	padding-bottom: 2px;
+	padding-left: 2px;
+}
+	
+.capital {margin-top:20px
+}
+
+noticeboard.odd {
+	background-image: -webkit-linear-gradient(270deg,rgba(195,195,195,0.76) 0%,rgba(127,127,127,0.76) 98.44%);
+	background-image: -moz-linear-gradient(270deg,rgba(195,195,195,0.76) 0%,rgba(127,127,127,0.76) 98.44%);
+	background-image: -o-linear-gradient(270deg,rgba(195,195,195,0.76) 0%,rgba(127,127,127,0.76) 98.44%);
+	background-image: linear-gradient(180deg,rgba(195,195,195,0.76) 0%,rgba(127,127,127,0.76) 98.44%);
+	
+}
+.community {
+	padding-top: 2px;
+	padding-right: 4px;
+	padding-bottom: 2px;
+	padding-left: 4px;
+	width: 100%;
+	height: 100%;
+	
+}
+figure .col-md-4 img {
 }
