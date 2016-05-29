@@ -42,8 +42,8 @@ nav.row .nav.navbar-nav > li > a:link,  nav.row .nav.navbar-nav > li > a:visited
 	font-weight: bold;
 }
 .container.holder {
-	background-color: #F7F7F7;
-	width:auto;
+	background-color: #FFFFFF;
+	width: auto;
 	height: 80%;
 }
 h3   {
@@ -54,15 +54,16 @@ h3   {
 	text-align: center-block;
 }
 marquee {
-	font-size: large;
+	font-size: 21px;
 	font-weight: bold;
 	font-style: italic;
 	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
-	padding-top: 16px;
+	margin-bottom: 60px;
+	line-height: 25px;
 }
 
 header.row {
-	padding-top: 180px;
+	padding-top: 150px;
 	padding-bottom: 50px;
 	background-repeat: no-repeat;
 	background-size: 100%;
@@ -243,11 +244,18 @@ blockquote.row {
 	
 .flt_rgt {
 	float: right;
+	margin-top: 5px;
 	margin-right: 10px;
+	margin-bottom: 5px;
+	margin-left: 5px;
+	
 }
 .flt_lft {
 	float: left;
+	margin-top: 5px;
 	margin-right: 10px;
+	margin-bottom: 5px;
+	margin-left: 5px;
 
 }.add_padding{
 	padding-top: 7px;
@@ -344,14 +352,41 @@ noticeboard.odd {
 	height: 100%;
 	
 }
-.homepageimage {
-	margin: 1px 1px 1px 1px;
-	display: block;
-	-webkit-box-sizing: content-box;
-	-moz-box-sizing: content-box;
-	box-sizing: content-box;
-}
+
 
 .index {
 	padding: 1px 1px 1px 1px;
+}
+.contact {
+	margin-left: 11px;
+}
+input {
+	border: 2px solid #eeeeee;
+	height: 46px;
+	margin: 10px 0 0 0;
+	padding: 1%;
+	font-size: 1.2em;
+	line-height: 1.5em;
+	color: #333333;
+	letter-spacing: .01em;
+	font-style: normal;
+	font-weight: 300;
+	
+}
+
+#fname{
+	width:80%;
+}
+
+#lname{
+	width:80%;
+}
+
+#email {
+	width:80%;
+}
+
+#comment {
+	width: 80%;
+	
 }
